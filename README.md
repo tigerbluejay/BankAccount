@@ -1,14 +1,11 @@
-# BankAccount
-This console project defines two types, Account and Transactions. Transactions is a simple class that only holds information about transactions.
+# Bank Account Console Application
 
-Account is class with three properties Number, Owner and Balance. Getting the balance recalculates it. The Account constructor defines an account number, sets the account owner and makes an initial balance deposit defined as a constructor parameter.
+This minimalistic .NET console application models a basic bank account system with support for deposits, withdrawals, and transaction history tracking. Built to demonstrate object-oriented programming (OOP) concepts such as encapsulation, classes, and methods, the project is ideal for beginners exploring C# fundamentals or experienced developers needing a quick reference for implementing core OOP patterns in a financial context.This minimalistic .NET console application models a basic bank account system with support for deposits, withdrawals, and transaction history tracking. Built to demonstrate object-oriented programming (OOP) concepts such as encapsulation, classes, and methods, the project is ideal for beginners exploring C# fundamentals or experienced developers needing a quick reference for implementing core OOP patterns in a financial context.
 
-Account has three associated behaviors, MakeDeposit() creates a transaction and adds this transaction to the list of transactions defined as a private field in the Account class. MakeDeposit() throws an exception when and if deposit amount is not positive.
+---
 
-MakeWithdrawal() creates a transaction and adds it to the list of transactions defined as a private field in the Account class. And throws exceptions if amount of withdrawal is not positive and if there are not sufficient funds for this withdrawals.
+This minimalistic C# console application models a basic bank account system using two core classes: Account and Transaction. The Transaction class is a simple data structure that holds details about individual deposits and withdrawals. The Account class encapsulates account operations and maintains a private list of all transactions. It includes properties such as account number, owner, and a dynamically calculated balance based on the transaction history.
 
-GetAccountHistory() creates a stringbuilder to display account history, looping through the list of transactions.
+The constructor for Account initializes the account with a number, an owner, and an initial deposit, which is recorded as the first transaction. The class includes methods for MakeDeposit() and MakeWithdrawal(), both of which create and store new Transaction instances while performing validation. Deposits must be positive values, while withdrawals must not only be positive but also cannot exceed the current balance—violations of either condition raise exceptions.
 
-Main() creates an account object, makes a withdrawal, recalculates the balance, makes a deposit, recalculates the balance and gets the account history.
-
-Then we attempt to overdraw and the exception is caught. And we attempt to create an invalid account with negative balance, and the exception is caught.
+The GetAccountHistory() method returns a formatted string showing the complete transaction history using a StringBuilder. In Main(), a sample flow is demonstrated: an account is created, a withdrawal and deposit are made, and the updated balance and transaction history are printed. The program also includes test cases where it intentionally tries to overdraw the account or initialize it with an invalid (negative) balance, both of which raise and handle exceptions gracefully. This project provides a clear and concise example of object-oriented programming principles in action, including encapsulation, validation, and exception handling.
