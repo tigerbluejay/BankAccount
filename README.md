@@ -1,6 +1,6 @@
 # Bank Account Console Application
 
-This minimalistic .NET console application models a basic bank account system with support for deposits, withdrawals, and transaction history tracking. Built to demonstrate object-oriented programming (OOP) concepts such as encapsulation, classes, and methods, the project is ideal for beginners exploring C# fundamentals or experienced developers needing a quick reference for implementing core OOP patterns in a financial context.This minimalistic .NET console application models a basic bank account system with support for deposits, withdrawals, and transaction history tracking. Built to demonstrate object-oriented programming (OOP) concepts such as encapsulation, classes, and methods, the project is ideal for beginners exploring C# fundamentals or experienced developers needing a quick reference for implementing core OOP patterns in a financial context.
+This minimalistic .NET console application models a basic bank account system with support for deposits, withdrawals, and transaction history tracking. Built to demonstrate object-oriented programming (OOP) concepts such as encapsulation, classes, and methods, the project is ideal for beginners exploring C# fundamentals or experienced developers needing a quick reference for implementing core OOP patterns in a financial context.
 
 ---
 
